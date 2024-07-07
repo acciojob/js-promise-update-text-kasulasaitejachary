@@ -10,7 +10,7 @@
 
     async function updateText() {
       const message = await delayedHello();
-      document.getElementById('output').textContent = message;
+      document.getElementById('output').innerHTML = message;
     }
 
     // Call the updateText function to update the text after promise resolves
